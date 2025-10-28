@@ -6,11 +6,14 @@
 
 [![Cron Drift Open Graphic Image](https://github.com/user-attachments/assets/4c9081bf-5284-4f84-afc0-f88e858946cc)][dashboard]
 
-A small observability project for GitHub Actions: a Grafana dashboard and helper tooling that measures "cron drift" — the difference between when a scheduled workflow is supposed to start and when it actually starts on GitHub-hosted runners.
+A small observability project for GitHub Actions: a Grafana dashboard and helper tooling that measures "cron drift", the difference between when a scheduled workflow is supposed to start and when it actually starts on GitHub-hosted runners.
 
 If you use GitHub Actions, you may have noticed scheduled workflows sometimes start late. GitHub warns that the schedule event can be delayed during periods of high load. This project answers the question: how late, how often, and when?
 
 👉 [View the live dashboard][dashboard]
+
+> [!NOTE]
+> The Grafana dashboard may be slow to load, please be patient. Grafana Cloud scales down dashboards based on usage.
 
 ## Why it exists
 
@@ -18,13 +21,13 @@ To stop guessing when scheduled jobs will actually run on GitHub-hosted runners.
 
 ## What you'll see in the dashboard
 
-- Cron drift over time: a time-series of per-run delay (seconds) showing trends over the previous days.
-- Quick stats (min, max, mean, median) over a configurable window (e.g., last month).
-- Hourly / daily patterns to reveal times when delays spike.
-- Recent-run details so you can inspect individual scheduled runs and their delays.
+- ✔️ Cron drift over time: a time-series of per-run delay (seconds) showing trends over the previous days.
+- ✔️ Quick stats (min, max, mean, median) over a configurable window (e.g., last month).
+- ✔️ Hourly / daily patterns to reveal times when delays spike.
+- ✔️ Annotations for recent-run details, so you can inspect individual scheduled runs and their delays.
 
 ## Contributing
 
-Found a bug, missing feature, or want to improve the dashboard? Open an issue or submit a PR.
+Found a bug, missing feature, or want to improve the dashboard? Open an [issue](https://github.com/lowlydba/cron-drift/issues) or [submit a PR](https://github.com/lowlydba/cron-drift/pulls).
 
 [dashboard]: https://lowlysre.grafana.net/public-dashboards/66e12b0c83214d88ab4040521de1e874
