@@ -1,6 +1,6 @@
 # GitHub Cron Drift
 
-[![Cron Job](https://github.com/lowlydba/cron-drift/actions/workflows/cron.yml/badge.svg)](https://github.com/lowlydba/cron-drift/actions/workflows/cron.yml)
+[![Cron Job](https://github.com/lowlysre/cron-drift/actions/workflows/cron.yml/badge.svg)](https://github.com/lowlysre/cron-drift/actions/workflows/cron.yml)
 
 [![GitHub Cron Drift dashboard](https://img.shields.io/badge/Grafana-GitHub%20Cron%20Drift-orange?logo=grafana&style=flat)](https://lowlysre.grafana.net/public-dashboards/66e12b0c83214d88ab4040521de1e874)
 [![Sample Data For Change](https://img.shields.io/badge/Sample%20Data%20For%20Change-%E2%9D%A4-red)](https://sampledataforchange.github.io/)
@@ -29,6 +29,6 @@ To stop guessing when scheduled jobs will actually run on GitHub-hosted runners.
 
 ## Contributing
 
-Found a bug, missing feature, or want to improve the dashboard? Open an [issue](https://github.com/lowlydba/cron-drift/issues) or [submit a PR](https://github.com/lowlydba/cron-drift/pulls).
+Found a bug, missing feature, or want to improve the dashboard? Open an [issue](https://github.com/lowlysre/cron-drift/issues) or [submit a PR](https://github.com/lowlysre/cron-drift/pulls).
 
 [dashboard]: https://lowlysre.grafana.net/public-dashboards/66e12b0c83214d88ab4040521de1e874
